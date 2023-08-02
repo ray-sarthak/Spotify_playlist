@@ -39,6 +39,11 @@ transition: all 1s ease;
 font-weight: 700;
 line-height: normal;
 letter-spacing: -1.14px;
+text-decoration: none !important;
+}
+.hum{
+    text-decoration: none !important;
+    text-decoration-line: none !important;
 }
 .search{
     margin-inline: auto;
@@ -582,6 +587,10 @@ border: 0px;
  *{
     margin:0px;
     padding:0px;
+ }
+ a{
+    text-decoration: none;
+    
  }
 
  
