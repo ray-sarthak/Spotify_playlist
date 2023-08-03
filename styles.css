@@ -368,7 +368,7 @@ width: 2vw;
     width: 15vw;
     
 }
-.tet{
+.music_text{
     color: #FFF;
     font-family: Circular Std;
     font-size: 16px;
@@ -592,6 +592,21 @@ border: 0px;
     text-decoration: none;
     
  }
+ .heading>h1{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+    transition:all 2s ease-in-out;
+ }
+
+ @keyframes shake {
+    25% { transform: translate(5px, 0px) rotate(2deg); }
+  
+   
+    50% { transform: translate(0px, 10px) rotate(0deg); }
+    
+    75% { transform: translate(-5px, 0px) rotate(-2deg); }
+ }
+    
 
  
  
